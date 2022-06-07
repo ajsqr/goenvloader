@@ -2,6 +2,15 @@
 
 goenvloader lets you load your project specific environment variables using just a method call.
 
+## Installation
+1. Initialize a go module. 
+```sh
+go mod init example.com/package
+```
+2. Install goenvloader 
+```sh
+go get github.com/ajay-ajith/goenvloader
+```
 
 ## Example
 
