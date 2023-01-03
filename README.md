@@ -9,7 +9,7 @@ go mod init example.com/package
 ```
 2. Install goenvloader 
 ```sh
-go get github.com/ajay-ajith/goenvloader
+go get github.com/ajsqr/goenvloader
 ```
 
 ## Example
@@ -24,7 +24,7 @@ PASSWORD=PASSWORD #This is a comment
 ```go
 package main
 
-import "github.com/ajay-ajith/goenvloader"
+import "github.com/ajsqr/goenvloader"
 
 func main(){
     loader := goenvloader.NewLoader(".env") // The env file name
